@@ -4,9 +4,9 @@ import java.nio.file.Path;
 
 /** Thin wrapper that encourages re-loading and multiple instances. */
 public class SettingsLoader {
-    public AppSettings load(Path file) {
-        AppSettings s = new AppSettings(); // encourages extra instances
-        s.loadFromFile(file);
-        return s;
-    }
+  public AppSettings load(Path file) {
+    AppSettings settings = AppSettings.getInstance();
+    settings.loadFromFile(file);
+    return settings;
+  }
 }
