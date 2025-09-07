@@ -1,0 +1,8 @@
+id,email,displayName
+1,john.doe@example.com,John Doe
+2,jane.smith@example.com,Jane Smith
+3,invalid-email,Bob Wilson
+4,,Alice Brown
+,missing-id@example.com,Charlie Davis
+5,mike.jones@example.com,Mike Jones
+6,sarah.connor@example.com,
