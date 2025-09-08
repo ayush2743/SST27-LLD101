@@ -1,4 +1,4 @@
-package beverages_decorator;
+package beverages_decorator.src.com.example.beverages_decorator;
 
 public class Client {
 
@@ -7,11 +7,9 @@ public class Client {
 
 		
 		Beverage coffee = new Cappuccino();
-        System.out.println("Coffee");
+    System.out.println("Coffee");
 		System.out.println(coffee.cost());
-		
 		
 
 	}
-
 }
